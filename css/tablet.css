@@ -1,0 +1,183 @@
+@media screen and (min-width:768px) {
+   .container {
+      width: 766px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .mobile-menu {
+      display: none;
+   }
+
+   .mobile-menu-open {
+      display: none;
+   }
+
+
+   .main-nav {
+      display: flex;
+      align-items: center;
+   }
+
+   .menu {
+      display: flex;
+      align-items: center;
+   }
+
+   .logo {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--main-color);
+      margin-right: 120px;
+   }
+
+   .logo .web {
+      color: #4D5AE5;
+   }
+
+   .menu-item:not(:last-child) {
+      margin-right: 40px;
+   }
+
+   .menu-link {
+      font-weight: var(--primary-font-weight);
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-color);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+
+   }
+
+   .menu-link:hover,
+   .menu-link:focus {
+      color: #4D5AE5;
+   }
+
+   .menu-link.current-page::after {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 4px;
+      background: #404BBF;
+      bottom: 0;
+      border-radius: 2px;
+      left: 0px;
+      top: 40px;
+
+   }
+
+   .menu-link:active {
+      color: black;
+   }
+
+   .contacts-item {
+      display: block;
+      align-items: center;
+      margin-left: auto;
+   }
+
+   .contacts {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+   .contacts:hover,
+   .contacts:focus {
+      color: #4D5AE5;
+   }
+
+   .contacts-list: {
+      margin-right: 16px;
+      margin-left: 118px;
+   }
+
+   .list-email {
+      margin-bottom: 4px;
+   }
+
+   .list-tel {
+      margin-bottom: 10px;
+   }
+       /* ======= HERO======= */
+.hero {
+max-width: 768px;
+height: 436px;
+margin-left: auto;
+margin-right: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),
+url('../images/herotablet.jpg');
+   background-color: #434455;
+   
+      }
+   
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+ .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),
+                url('../images/herotablet@2x.jpg');
+             background-color: #434455;
+          }
+       }
+
+       /* =================About us============ */
+             .about-us {
+                flex-wrap: wrap;
+                row-gap: 72px;
+                column-gap: 24px;
+                justify-content: center;
+                }
+.discr{ 
+   width:calc((100%-48px)/3)
+}
+
+   
+       /*============= our team=========== */
+       .workers-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 24px;
+       }
+   
+   .card-content {
+   padding: 32px 16px;
+   background-color: #FFFFFF;
+      text-align: center;
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      border-radius: 0px 0px 4px 4px;
+      overflow: hidden
+      }
+   
+      .team-list {
+      background-color: #F4F4FD;
+    }
+    }
+
+    /* =====Customer===== */
+       /* .customer-list {
+          display: flex;
+          flex-wrap: wrap;
+         column-gap: 16px;
+            row-gap: 72px;
+            align-items: center;
+         }
+         
+         
+         
+                  .customer-linkk {
+                     width: calc((100% - 48px) / 3) */
