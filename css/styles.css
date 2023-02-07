@@ -385,7 +385,7 @@ margin: 0;
       }
       
          
-      }
+      
       
    .secondary-title {
          font-weight: 700;
@@ -412,7 +412,28 @@ margin: 0;
  .customer-linkk:nth-child(2n){
    margin-right: 0px;
  }
+ /* ======footer===== */
+ .footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    display: block;
+    margin-top: 16px;
 
+
+    /* width: 264px;
+    height: 72px; */
+ }
+ .logo-text {
+    margin-right: 80px;
+    margin-left: 80px;
+    display: block;
+    width: 268px;
+    height: 110px;
+    margin-bottom: 72px;
+ }
+}
 
 .customer-list-link{
    display: flex;
@@ -1635,20 +1656,38 @@ margin-bottom: 48px;
    display: flex;
 
 }
-.footer-text{
+/* .footer-text{
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #E7E9FC;
-      display: flex;
+      display: block;
       margin-top: 16px;
+    
+      
       width: 264px;
          height: 72px;
-
-}
+} */
 .logo-fone-dark{
    color: #F4F4FD;
 }
+.logo-footer{
+   font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--main-color);
+      justify-content: center;
+      display: flex;
+   
+}
+.logo-footer .web{
+   color: #4D5AE5;
+}
+
+
 .footer-title{
    font-family: 'Roboto', sans-serif;
       font-weight: 600;
@@ -1693,19 +1732,27 @@ margin-bottom: 48px;
 /* ===== footer position====== */
 
 .footer-container {
-   display: flex;
+   display: block;
 
 }
 
 
 .social-media{
+   margin-right: 110px;
+   margin-left: 110px;
+   
+
+}
+/* .logo-text {
    margin-right: 80px;
-
-}
-.logo-text {
-   margin-right: 120px;
-
-}
+   margin-left: 80px;
+   display: block;
+   width: 268px;
+   height: 110px;
+   margin-bottom: 72px;
+   
+   
+} */
 
 
 /* ============FOOTER MODAL============ */
@@ -1738,9 +1785,9 @@ margin-bottom: 16px;
    
 }
 .footer-modal-form{
-   display: flex;
+   display:block;
    justify-content: center;
-   align-items: center;
+   /* align-items: center; */
 }
 .footer-button-subscribe{
    width: 77px;
