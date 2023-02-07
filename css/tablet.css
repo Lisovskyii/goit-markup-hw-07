@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) {
    
-      }
+      
    .container {
       width: 766px;
       margin-left: auto;
@@ -170,7 +170,7 @@ url('../images/herotablet.jpg');
       .team-list {
       background-color: #F4F4FD;
     }
-    
+   }
 
     /* =====Customer===== */
          /* .customer-list {
@@ -185,7 +185,7 @@ url('../images/herotablet.jpg');
          
          
                   @media (min-width: 768px) and (max-width: 1199px){
-
+                  
                      .wwad-none {
                            display: none;
                         }
@@ -210,4 +210,11 @@ url('../images/herotablet.jpg');
    width: 356px;
    height: 120px;
    }
+
+   /* =====our-team==== */
+     
+   
+      .secondary-title {
+
+      }
 }
