@@ -191,9 +191,6 @@
 .about-us{
    display: flex;
    column-gap: 0px;
-   /* flex-wrap:nowrap; */
-   
-   
 } 
 .discr:not(:last-child){
    margin-right: 24px;
@@ -229,7 +226,6 @@
 
 .work-list {
 display: flex;
-
 }
 
 .work-list-photo:not(:last-child) {
@@ -237,6 +233,7 @@ margin-right: 24px;}
 .secondary-title{ 
    font-weight: 700;
 }
+
 /* ============Customers======= */
 
  .customer-list {
@@ -246,34 +243,7 @@ margin-right: 24px;}
     gap: 24px;
  }
 
- /* .customer-list-link {
-    width: 168px;
-    height: 88px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- } */
 
- /* .customer-list-link:hover .customer-list-icon,
- .customer-list-link:focus .customer-list-icon {
-    fill: #4D5AE5;
- }
-
- .customer-list-icon {
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    width: 168px;
-    height: 88px;
-    padding: 16px, 32px;
-    fill: #8E8F99;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .customer-list-link .customer-list-icon:hover,
- .customer-list-icon:focus {
-    border: 1px solid #4D5AE5;
- } */
 
 /*================= Footer======= */
 .footer {
@@ -352,8 +322,6 @@ margin-right: 24px;}
 
 .social-media {
    margin-right: 80px;
-
-
 }
 
 .logo-text {
