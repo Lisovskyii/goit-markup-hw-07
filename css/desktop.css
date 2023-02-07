@@ -18,10 +18,12 @@
       align-items: center;
       margin-left: auto;
    }
-
+      
+         
    .contacts-list:not(:last-child) {
       margin-right: 40px;
    }
+      
 
       /*  ===============HEro================= */
       .hero {
@@ -156,34 +158,44 @@
             }
 
             @media (min-width: 1200px) and (max-width: 2000px){
-                        .subtitle {
-                           justify-content: center;
-                           text-align: center;
-                           font-family: 'Roboto';
-                           font-weight: 500;
-                           font-size: 20px;
-                           line-height: 1.2;
-                           letter-spacing: 0.02em;
-                           color: #2E2F42;
-                           margin-bottom: 8px;
-                        }
-                        .text-title {
-                           font-family: 'Roboto';
-                           font-weight: 400;
-                           font-size: 16px;
-                           line-height: 1.5;
-                           letter-spacing: 0.02em;
-                           color: #434455;
-                           margin-bottom: 0px;
-                     }
+
+               .list-email {
+                     margin-bottom: 0px;
+                  }
+               
+                  .list-tel {
+                     margin-bottom: 0px;
+                  }
+   .subtitle {
+      justify-content: center;
+      text-align: center;
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: #2E2F42;
+      margin-bottom: 8px;
+   }
+   .text-title {
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;
+      margin-bottom: 0px;
+}
 /* ==============ABOUT US============= */
 
- .about-us{
+.about-us{
    display: flex;
+   column-gap: 0px;
    /* flex-wrap:nowrap; */
    
+   
 } 
- .discr:not(:last-child){
+.discr:not(:last-child){
    margin-right: 24px;
 }
 .discr{
@@ -211,36 +223,39 @@
       padding-top: 24px;
       padding-bottom: 24px;
 } 
-                  }
-                  /* =======what we are doing===== */
-  .work-list {
-     display: flex;
 
-  }
 
-  .work-list-photo:not(:last-child) {
-     margin-right: 24px;}
+/* =======what we are doing===== */
+
+.work-list {
+display: flex;
+
+}
+
+.work-list-photo:not(:last-child) {
+margin-right: 24px;}
 .secondary-title{ 
    font-weight: 700;
 }
 /* ============Customers======= */
+
  .customer-list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
     justify-content: center;
     gap: 24px;
  }
 
- .customer-list-link {
+ /* .customer-list-link {
     width: 168px;
     height: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+ } */
 
- .customer-list-link:hover .customer-list-icon,
+ /* .customer-list-link:hover .customer-list-icon,
  .customer-list-link:focus .customer-list-icon {
     fill: #4D5AE5;
  }
@@ -258,4 +273,4 @@
  .customer-list-link .customer-list-icon:hover,
  .customer-list-icon:focus {
     border: 1px solid #4D5AE5;
- }
+ } */}

@@ -82,7 +82,7 @@
    .contacts-item {
       display: block;
       align-items: center;
-      margin-left: auto;
+      margin-left: 118px;
    }
 
    .contacts {
@@ -100,7 +100,7 @@
 
    .contacts-list{
       margin-right: 16px;
-      margin-left: 118px;
+      
    }
 
    .list-email {
@@ -189,6 +189,13 @@ url('../images/herotablet.jpg');
                      .wwad-none {
                            display: none;
                         }
+                                                .customer-list {
+                                                   display: flex;
+                                                   flex-wrap: wrap;
+                                                   column-gap: 16px;
+                                                   row-gap: 72px;
+                                                   justify-content: center;
+                                                }
                   .customer-linkk {
                      width: calc((100% - 48px) / 3)
                   }
