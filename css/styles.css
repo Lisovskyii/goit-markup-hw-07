@@ -180,7 +180,7 @@ margin: 0;
 
 /* ================HERO================== */
 .hero {
-   max-width: 468px;
+   /* max-width: 468px; */
    height: 432px;
    margin-left: auto;
    margin-right: auto;
@@ -413,25 +413,30 @@ margin: 0;
    margin-right: 0px;
  }
  /* ======footer===== */
+
  .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
-    display: block;
     margin-top: 16px;
-
-
-    /* width: 264px;
-    height: 72px; */
+   /* justify-content: center; */
+   /* display: flex; */
+   text-align: center;
+      
  }
  .logo-text {
-    margin-right: 80px;
-    margin-left: 80px;
-    display: block;
-    width: 268px;
-    height: 110px;
+    /* margin-right: 80px;
+    margin-left: 80px; */
+    /* display: block; */
+    /* width: 268px;
+    height: 110px; */
     margin-bottom: 72px;
+    
+   
+ }
+ .discr-modal-form{
+   flex-direction: column;
  }
 }
 
@@ -1652,22 +1657,23 @@ margin-bottom: 48px;
 .footer{
    background-color: var(--bgc-main);
    padding-top: 100px;
-   padding-bottom: 188px;
-   display: flex;
+   padding-bottom: 96px;
+   
 
 }
-/* .footer-text{
+.footer-text{
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #E7E9FC;
       display: block;
       margin-top: 16px;
-    
+      margin-left: auto;
+      margin-right: auto;
       
-      width: 264px;
-         height: 72px;
-} */
+      width: 268px;
+   }
+         
 .logo-fone-dark{
    color: #F4F4FD;
 }
@@ -1732,28 +1738,25 @@ margin-bottom: 48px;
 /* ===== footer position====== */
 
 .footer-container {
-   display: block;
-
+   flex-direction: column;
 }
 
 
 .social-media{
-   margin-right: 110px;
+   /* margin-right: 110px;
    margin-left: 110px;
-   
+    */
+    margin-bottom: 72px;
 
 }
-/* .logo-text {
-   margin-right: 80px;
-   margin-left: 80px;
+.logo-text {
    display: block;
-   width: 268px;
-   height: 110px;
+   /* width: 268px;
+   height: 110px; */
    margin-bottom: 72px;
    
    
-} */
-
+}
 
 /* ============FOOTER MODAL============ */
 .modal-form-text{
@@ -1764,6 +1767,7 @@ line-height:1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+text-align: center;
 }
 
 .button-footer-modal{
@@ -1771,10 +1775,14 @@ margin-bottom: 16px;
       border-radius: 4px;
       border: none;
       display: flex; 
-         flex-direction: row;
-         justify-content: center;
-         align-items: center;
+      text-align: center;
+         /* flex-direction: row; */
+         /* justify-content: center; */
+         /* align-items: center; */
+         margin-left: auto;
+         margin-right: auto;
          padding: 8px 24px;
+         margin-top: 16px;
             gap: 16px;  
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;   
 }
@@ -1785,9 +1793,9 @@ margin-bottom: 16px;
    
 }
 .footer-modal-form{
-   display:block;
+   /* display:block;
    justify-content: center;
-   /* align-items: center; */
+   align-items: center; */
 }
 .footer-button-subscribe{
    width: 77px;
@@ -1798,6 +1806,7 @@ margin-bottom: 16px;
       line-height:1.5;
       letter-spacing: 0.04em;
       color: #FFFFFF;
+      
 }
 
 
@@ -1805,7 +1814,7 @@ margin-bottom: 16px;
    border: 1px solid rgba(255, 255, 255, 0.3);
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
       border-radius: 4px;
-      width: 264px;
+      width:100%;
       height: 40px;
       background-color:transparent;
       margin-right: 24px;
