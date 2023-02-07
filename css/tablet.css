@@ -1,4 +1,6 @@
 @media screen and (min-width:768px) {
+   
+      }
    .container {
       width: 766px;
       margin-left: auto;
@@ -96,7 +98,7 @@
       color: #4D5AE5;
    }
 
-   .contacts-list: {
+   .contacts-list{
       margin-right: 16px;
       margin-left: 118px;
    }
@@ -140,10 +142,11 @@ url('../images/herotablet.jpg');
                 flex-wrap: wrap;
                 row-gap: 72px;
                 column-gap: 24px;
-                justify-content: center;
+                /* justify-content: center; */
                 }
 .discr{ 
    width:calc((100%-48px)/3)
+   
 }
 
    
@@ -151,7 +154,8 @@ url('../images/herotablet.jpg');
        .workers-list {
           display: flex;
           flex-wrap: wrap;
-          gap: 24px;
+         column-gap: 24px;
+            row-gap: 72px;
        }
    
    .card-content {
@@ -166,18 +170,44 @@ url('../images/herotablet.jpg');
       .team-list {
       background-color: #F4F4FD;
     }
-    }
+    
 
     /* =====Customer===== */
-       /* .customer-list {
-          display: flex;
-          flex-wrap: wrap;
-         column-gap: 16px;
-            row-gap: 72px;
-            align-items: center;
-         }
+         /* .customer-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 16px;
+               row-gap: 72px;
+               align-items: center;
+               margin-right: 16px;
+               margin-bottom: 72px;
+         } */
          
          
-         
+                  @media (min-width: 768px) and (max-width: 1199px){
+
+                     .wwad-none {
+                           display: none;
+                        }
                   .customer-linkk {
-                     width: calc((100% - 48px) / 3) */
+                     width: calc((100% - 48px) / 3)
+                  }
+               .customer-list-icon{
+                  width: 168px;
+                     height: 88px;
+                     padding: 16px, 32px;
+               }
+                              .customer-list {
+                                 display: flex;
+                                 flex-wrap: wrap;
+                                 column-gap: 24px;
+                                 
+                         } 
+                         /* about us */
+.discr {
+   margin-bottom: 0px;
+   
+   width: 356px;
+   height: 120px;
+   }
+}

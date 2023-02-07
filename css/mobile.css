@@ -37,14 +37,6 @@
 
       }
 
-            /* .customer-list {
-               display: flex;
-               flex-wrap: wrap;
-               justify-content: center;
-               column-gap: 16px;
-               row-gap: 72px;
-      
-            }
-      
-            .customer-listt {
-               width: calc((100%-30px) /2)} */
+.customer-linkk:nth-child(2n) {
+   margin-right: 0px;
+}
