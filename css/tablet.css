@@ -174,13 +174,8 @@ url('../images/herotablet.jpg');
 
     /* =====Customer===== */
          /* .customer-list {
-            display: flex;
-            flex-wrap: wrap;
-            column-gap: 16px;
-               row-gap: 72px;
-               align-items: center;
-               margin-right: 16px;
-               margin-bottom: 72px;
+            margin-left: 108px;
+            margin-right: auto;
          } */
          
          
@@ -226,7 +221,7 @@ url('../images/herotablet.jpg');
 .footer {
    background-color: var(--bgc-main);
    padding-top: 100px;
-   padding-bottom: 188px;
+   padding-bottom: 96px;
    display: flex;
 
 }
@@ -292,24 +287,35 @@ url('../images/herotablet.jpg');
 
 /* ===== footer position====== */
 
-footer-container {
+.footer-container {
    display: flex;
-
+   flex-wrap: wrap;
+   row-gap: 72px;
+   column-gap: 24px;
+   /* text-align: center; */
+      /* align-items: center; */
+      
 }
 
 
 .social-media {
-   margin-right: 80px;
+   margin-right: auto;
 }
 
 .logo-text {
-   margin-right: 80px;
-   margin-left: 80px;
+   
+   margin-left: 108px;
    display: block;
 
 }
 
 /* ============FOOTER MODAL============ */
+.discr-modal-form{
+   
+   margin-left: 108px;
+      margin-right: auto;
+
+}
 
 .modal-form-text {
    font-family: 'Roboto';
@@ -343,8 +349,13 @@ footer-container {
 
 .footer-modal-form {
    display: flex;
-   justify-content: center;
-   align-items: center;
+   
+   
+   /* justify-content: center;
+  
+   flex-direction: row;
+      align-items: flex-start;
+      flex-direction: column; */
 }
 
 .footer-button-subscribe {

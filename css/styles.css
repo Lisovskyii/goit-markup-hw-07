@@ -553,7 +553,7 @@ margin: 0;
    padding-left: 16px;
 }
 .footer-container {
-   flex-direction: column;
+   display: block;
 }
 
 
@@ -1833,6 +1833,9 @@ margin-bottom: 48px;
 .filter-button:focus{
    background: #4D5AE5;
    color: #FFFFFF;
+}
+.logo-footer .web {
+   color: #4D5AE5;
 }
 /* Footer */
 /* .footer{
