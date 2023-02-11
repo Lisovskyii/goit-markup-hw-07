@@ -6,6 +6,12 @@
       margin-left: auto;
       margin-right: auto;
    }
+      .main-title {
+         font-weight: 700;
+         font-size: 56px;
+         line-height: 1.2;
+         margin-bottom: 40px;
+      }
 
    .mobile-menu {
       display: none;
@@ -98,18 +104,12 @@
       color: #4D5AE5;
    }
 
-   .contacts-list{
-      margin-right: 16px;
-      
-   }
-
+   
    .list-email {
       margin-bottom: 4px;
    }
 
-   .list-tel {
-      margin-bottom: 10px;
-   }
+  
        /* ======= HERO======= */
 .hero {
 /* max-width: 768px; */
@@ -172,15 +172,16 @@ url('../images/herotablet.jpg');
     }
    }
 
-    /* =====Customer===== */
-         /* .customer-list {
-            margin-left: 108px;
-            margin-right: auto;
-         } */
-         
+         .logo-footer{
+            font-family: 'Raleway';
+               font-weight: 800;
+               font-size: 18px;
+               line-height: 1.16;
+         }
          
                   @media (min-width: 768px) and (max-width: 1199px){
-                  
+                  .header{ padding-top: 21px;
+                  padding-bottom: 21px;}
                      .wwad-none {
                            display: none;
                         }
@@ -192,13 +193,15 @@ url('../images/herotablet.jpg');
                                                    justify-content: center;
                                                 }
                   .customer-linkk {
-                     width: calc((100% - 48px) / 3)
+                     /* width: calc((100% - 48px) / 3) */
+                     width: 168px;
                   }
                .customer-list-icon{
                   width: 168px;
                      height: 88px;
                      padding: 16px, 32px;
                }
+                              
                               .customer-list {
                                  display: flex;
                                  flex-wrap: wrap;
@@ -250,7 +253,6 @@ url('../images/herotablet.jpg');
    letter-spacing: 0.02em;
    color: #FFFFFF;
    display: flex;
-   justify-content: center;
    text-align: center;
    margin-bottom: 16px;
 }
@@ -292,9 +294,7 @@ url('../images/herotablet.jpg');
    flex-wrap: wrap;
    row-gap: 72px;
    column-gap: 24px;
-   /* text-align: center; */
-      /* align-items: center; */
-      
+   
 }
 
 

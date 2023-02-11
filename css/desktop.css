@@ -18,6 +18,9 @@
       align-items: center;
       margin-left: auto;
    }
+   .contacts-list{
+      margin-right: 0;
+   }
       
          
    .contacts-list:not(:last-child) {
@@ -158,16 +161,23 @@
             }
 
             @media (min-width: 1200px) and (max-width: 2000px){
-
+.main-title{
+   font-weight: 700;
+      font-size: 56px;
+      line-height:1.2;
+      margin-bottom: 48px;
+}
                .list-email {
                      margin-bottom: 0px;
+                     /* margin-left: 0px; */
                   }
                
                   .list-tel {
                      margin-bottom: 0px;
+                     /* margin-left: 0; */
                   }
    .subtitle {
-      justify-content: center;
+      justify-content:space-between;
       text-align: center;
       font-family: 'Roboto';
       font-weight: 500;
@@ -176,6 +186,7 @@
       letter-spacing: 0.02em;
       color: #2E2F42;
       margin-bottom: 8px;
+      display: flex;
    }
    .text-title {
       font-family: 'Roboto';
@@ -223,7 +234,9 @@
 
 
 /* =======what we are doing===== */
-
+ .wwad-none{
+   padding-top: 0;
+}
 .work-list {
 display: flex;
 }
@@ -232,16 +245,16 @@ display: flex;
 margin-right: 24px;}
 .secondary-title{ 
    font-weight: 700;
-}
-
+   
+} 
 /* ============Customers======= */
 
  .customer-list {
     display: flex;
-    flex-wrap:nowrap;
-    justify-content: center;
     gap: 24px;
  }
+ .customer-list-icon {
+   width: 168px;}
 
 
 
@@ -278,7 +291,6 @@ margin-right: 24px;}
    letter-spacing: 0.02em;
    color: #FFFFFF;
    display: flex;
-   justify-content: center;
    text-align: center;
    margin-bottom: 16px;
 }
@@ -322,11 +334,11 @@ margin-right: 24px;}
 
 .social-media {
    margin-right: 80px;
+
 }
 
 .logo-text {
-   margin-right: 80px;
-   margin-left: 80px;
+   margin-right: 120px;
    display: block;
 
 } 
